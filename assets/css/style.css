@@ -1,0 +1,724 @@
+* {
+    font-family: 'Poppins';
+}
+
+#header {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    transition: all 400ms;
+
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    opacity: 70%;
+}
+
+.nav-link.active {
+    opacity: 70%;
+}
+
+
+#home {
+    padding-top: 80px;
+    background-image: url(../gambar/bg-utama.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.button-daftar strong {
+    color: #fff;
+}
+
+.judul-home {
+    font-size: 64px;
+    margin-bottom: 24px;
+}
+
+.ilustrasi {
+    position: absolute;
+    bottom: 100px;
+    background-color: #545454;
+    width: 100%;
+}
+
+
+
+
+#about {
+    padding: 100px 0;
+    background-color: white;
+
+
+}
+
+.judul-about {
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 47px;
+    margin-bottom: 80px;
+}
+
+.deskripsi-about {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.icon-sosmed i {
+    color: #545454;
+    font-size: 20px;
+
+}
+
+.button-home {
+    margin-top: 80px;
+    font-weight: 600;
+}
+
+.btn-home {
+    background-color: #fff;
+    padding: 6px 10px;
+    text-decoration: none;
+    color: black;
+    transition: all 400ms;
+    border: none;
+    font-weight: 600;
+}
+
+.btn-home:hover {
+    background-color: #d1d1d1;
+    color: rgb(97, 97, 97);
+}
+
+#formula-belajar {
+    background-color: #3C4192;
+    padding: 100px 0;
+}
+
+.gambar-hover {
+    margin-top: 50%;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.card-program {
+    height: 350px !important;
+    margin-bottom: 30px;
+}
+
+.btn-belajar {
+    color: #0a0a0a;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 400ms ease-in-out;
+}
+
+.btn-belajar:hover {
+    opacity: 50%;
+}
+
+.btn-belajar i {
+    color: #EA0000;
+}
+
+#program {
+    background-color: #3C4192;
+    padding: 170px 0;
+}
+
+#jadwal-belajar {
+    padding: 170px 0;
+}
+
+.text-tanya {
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 28px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.text-solusi {
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 28px;
+}
+
+.deskripsi-solusi {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.card-hari {
+    border-radius: 30px !important;
+    width: 30rem !important;
+    height: 34rem !important;
+    background-color: #ED1B24 !important;
+}
+
+.h-pilihan {
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+    margin: 24px 0;
+}
+
+.card-jam {
+    width: 30rem !important;
+    border-radius: 30px !important;
+    height: 34rem !important;
+    background-color: #F5BB35 !important;
+}
+
+.list-card li {
+    list-style: none;
+
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#titron {
+    padding: 100px 0;
+    background-color: #F5BB35;
+}
+
+.gambar-card {
+    background-color: #FCD67E;
+    border-radius: 16px 16px 0 0;
+}
+
+.card-mini {
+    margin-bottom: 10px;
+    height: 220px !important;
+}
+
+.card-alamat {
+    text-decoration: none;
+    color: #2C2C2C;
+    transition: all 600ms ease-in-out;
+}
+
+.card-alamat:hover {
+    transform: translateY(-10px) !important;
+}
+
+#testimoni {
+    padding: 100px 0;
+}
+
+.nama-mereka {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.sekolah-mereka {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+#faqs {
+    padding: 100px 0 100px 0;
+
+}
+
+.ombak-home {
+    background-image: url(../gambar/ombak-putih.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 470px;
+    padding-bottom: 10px;
+}
+
+#news {
+    padding: 0 0 100px 0;
+    background-color: #3C4192;
+}
+
+.news-over {
+    overflow-y: hidden;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    cursor: grab;
+}
+
+
+
+.new-over {
+    overflow: hidden;
+    cursor: grab;
+
+}
+
+#footer {
+    background-color: #2C2C2C;
+    padding: 80px 0 20px 0;
+    color: #fff;
+}
+
+
+#program-reguler {
+    background-image: linear-gradient(to right, #3C4192 30%, #fff 30%);
+    padding: 100px 0;
+}
+
+.bt-programs {
+    background-color: #F5BB35;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    transition: a 300ms;
+}
+
+.bt-programs:hover {
+    animation: a 0.7s 1 linear;
+}
+
+@keyframes a {
+    0% {
+        transform: scale(0.7, 1.3);
+    }
+
+    25% {
+        transform: scale(1.3, 0.7);
+    }
+
+    50% {
+        transform: scale(0.7, 1.3);
+    }
+
+    75% {
+        transform: scale(1.3, 0.7);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.btn-sekarang {
+    background-color: #EA0000;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+    border: none;
+}
+
+.btn-sekarang:hover {
+    color: #dfdfdf;
+    transform: translateY(-7px);
+    background-color: #c20707;
+}
+
+.btn-sekarang:active {
+    transform: translateY(-1px);
+}
+
+.btn-back {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn-back::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background-color: #F5BB35;
+}
+
+
+.btn-back {
+    width: 45px;
+    height: 45px;
+    background-color: #F5BB35;
+    border-radius: 25px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn-back i {
+    display: inline-block;
+    padding: 3px;
+
+
+}
+
+
+
+.btn-back:hover {
+    width: 160px;
+    background-color: #F5BB35;
+}
+
+.btn-back:hover i {
+    display: none;
+}
+
+.btn-back .text {
+    display: none;
+}
+
+.btn-back:hover .text {
+    display: flex;
+    font-size: 16px;
+    font-weight: 550;
+    color: #fff;
+    letter-spacing: 0.6px;
+    animation: anima 0.6s ease;
+}
+
+@keyframes anima {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.btn-back:active {
+    background-color: #F5BB35;
+}
+
+.animate-triton {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+#triton-loader {
+    position: fixed;
+    width: 96px;
+    height: 96px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    -webkit-box-shadow: 0px 24px 64px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 24px 64px rgba(0, 0, 0, 0.24);
+    border-radius: 16px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .2s ease-out, visibility 0s linear .2s;
+    -o-transition: opacity .2s ease-out, visibility 0s linear .2s;
+    transition: opacity .2s ease-out, visibility 0s linear .2s;
+    z-index: 9999;
+}
+
+#triton-loader.fullscreen {
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    background-color: #fff;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#triton-loader.show {
+    -webkit-transition: opacity .4s ease-out, visibility 0s linear 0s;
+    -o-transition: opacity .4s ease-out, visibility 0s linear 0s;
+    transition: opacity .4s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.ping {
+    --uib-size: 50px;
+    --uib-speed: 1s;
+    --uib-color: #3950cf;
+    position: relative;
+    height: var(--uib-size);
+    width: var(--uib-size);
+    top: 50%;
+    left: 50%;
+}
+
+.ping::before,
+.ping::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: var(--uib-color);
+    animation: pulse7132 var(--uib-speed) linear infinite;
+    transform: scale(0);
+    opacity: 0;
+}
+
+.ping::after {
+    animation-delay: calc(var(--uib-speed) / -2);
+}
+
+@keyframes pulse7132 {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+#faq {
+    max-width: 700px;
+    margin: auto;
+    padding: 0 15px;
+    text-align: center;
+}
+
+section.faq {
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+#faq ul {
+    text-align: left;
+}
+
+.transition,
+p,
+ul li i:before,
+ul li i:after {
+    transition: all 0.3s;
+}
+
+#faq .no-select,
+#faq h2 {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    user-select: none;
+}
+
+#faq h1 {
+    color: #000;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+#faq h2 {
+    color: #cc071e;
+    font-family: 'hm_light', sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: left;
+    padding: 15px 15px 0;
+    text-transform: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+#faq p {
+    color: #333;
+    text-align: left;
+    font-family: 'hm_light', sans-serif;
+    font-size: 14px;
+    line-height: 1.45;
+    position: relative;
+    overflow: hidden;
+    max-height: 250px;
+    will-change: max-height;
+    contain: layout;
+    display: inline-block;
+    opacity: 1;
+    transform: translate(0, 0);
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 0 50px 0 15px;
+    transition: .3s opacity, .6s max-height;
+    hyphens: auto;
+    z-index: 2;
+}
+
+#faq ul {
+    list-style: none;
+    perspective: 900;
+    padding: 0;
+    margin: 0;
+}
+
+#faq ul li {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    /*padding-bottom: 4px;*/
+    /*padding-top: 18px;*/
+    background: #fff;
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
+    -webkit-tap-highlight-color: transparent;
+}
+
+#faq ul li+li {
+    margin-top: 15px;
+}
+
+#faq ul li:last-of-type {
+    padding-bottom: 0;
+}
+
+#faq ul li i {
+    position: absolute;
+    transform: translate(-6px, 0);
+    margin-top: 28px;
+    right: 15px;
+}
+
+#faq ul li i:before,
+ul li i:after {
+    content: "";
+    position: absolute;
+    background-color: #cc071e;
+    width: 3px;
+    height: 9px;
+}
+
+#faq ul li i:before {
+    transform: translate(-2px, 0) rotate(45deg);
+}
+
+#faq ul li i:after {
+    transform: translate(2px, 0) rotate(-45deg);
+}
+
+#faq ul li input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    touch-action: manipulation;
+}
+
+#faq ul li input[type=checkbox]:checked~h2 {
+    color: #000;
+}
+
+#faq ul li input[type=checkbox]:checked~p {
+    /*margin-top: 0;*/
+    max-height: 0;
+    transition: .3s;
+    opacity: 0;
+    /*transform: translate(0, 50%);*/
+}
+
+#faq ul li input[type=checkbox]:checked~i:before {
+    transform: translate(2px, 0) rotate(45deg);
+}
+
+#faq ul li input[type=checkbox]:checked~i:after {
+    transform: translate(-2px, 0) rotate(-45deg);
+}
+
+.link-lengkap {
+    text-decoration: none;
+    color: #F5BB35;
+    padding: 20px;
+    font-weight: 600;
+    transition: all 300ms;
+}
+
+.link-lengkap:hover {
+    color: #d8a632;
+}
+
+.cta {
+    position: relative;
+    margin-left: 50px;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+}
+
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+.cta span {
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #e2ac2e;
+}
+
+.cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #e2ac2e;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+    width: 100%;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active {
+    transform: scale(0.95);
+}
+
+#halaman-faq {
+    padding: 80px 0;
+}
