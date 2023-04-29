@@ -200,7 +200,7 @@
     margin-bottom: 20px;
 }
 
-#titron {
+#triton {
     padding: 100px 0;
     background-color: #F5BB35;
 }
@@ -226,7 +226,7 @@
 }
 
 .card-pusat {
-    width: 25% !important;
+    width: 30% !important;
 }
 
 @media (max-width: 576px) {
@@ -698,6 +698,7 @@ ul li i:after {
     transition: all 0.2s ease;
     border: none;
     background: none;
+    text-decoration: none;
 }
 
 .cta:before {
@@ -747,4 +748,42 @@ ul li i:after {
 
 #halaman-faq {
     padding: 80px 0;
+}
+
+.link-kanan {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    width: 80px;
+    height: 150px;
+}
+
+.link-whatsapp {
+    text-decoration: none;
+    font-size: 50px;
+    color: #fff;
+    background-color: #23C861;
+    padding: 0 14px;
+    border-radius: 50%;
+    transition: all 400ms ease-in-out;
+
+}
+
+.link-pesan-sekarang-side {
+    text-decoration: none;
+    font-size: 40px;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: all 400ms ease-in-out;
+    border: none;
+}
+
+.link-pesan-sekarang-side:hover {
+    box-shadow: 0px 0px 20px #000;
+}
+
+.link-whatsapp:hover {
+    box-shadow: 0px 0px 20px #000;
 }
