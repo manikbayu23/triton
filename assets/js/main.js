@@ -49,3 +49,15 @@ var loader = function () {
 };
 
 loader();
+
+
+// var buttonHome = document.querySelector(".button-home");
+
+// // Tambahkan event listener untuk window dan menentukan kapan elemen akan muncul
+// window.addEventListener("scroll", function () {
+//     if (window.pageYOffset > 500) {
+//         buttonHome.classList.add("home-scroll");
+//     } else {
+//         buttonHome.classList.remove("home-scroll");
+//     }
+// });
