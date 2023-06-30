@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triton Denpasar | Bimbingan Belajar Terbaik di Bali </title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.css">
+    <link href="assets/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="assets/fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/gambar/logo.png">
+
+</head>
+
+<body>
+
+    <header class="header-pemesanan">
+        <div class="container py-4">
+            <a href="index.html">
+                <img src="assets/gambar/logo.png" alt="logo triton" width="170" class="img-fluid ">
+            </a>
+        </div>
+    </header>
+
+
+    <section class="form-order py-5">
+        <div class="container">
+            <form action="">
+                <div class="mb-3">
+                    <label for="nama" class="form-label fw-bold">Nama Lengkap</label>
+                    <input type="text" name="nama" id="nama" class="form-control rounded-4 bg-light"
+                        placeholder="masukan nama lengkap">
+                </div>
+                <div class="row row-cols-2">
+                    <div class="mb-3">
+                        <label for="tempat-lahir" class="form-label fw-bold">Tempat Lahir</label>
+                        <input type="text" name="tempat-lahir" id="tempat-lahir" class="form-control rounded-4 bg-light"
+                            placeholder="masukan tempat lahir">
+                    </div>
+                    <div class="mb-3">
+                        <label for="tanggal-lahir" class="form-label fw-bold">Tanggal Lahir</label>
+                        <input type="date" name="tanggal-lahir" id="tanggal-lahir"
+                            class="form-control rounded-4 bg-light">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="telepon" class="form-label fw-bold"> No. Handphone</label>
+                    <input type="number" name="telepon" id="telepon" class="form-control rounded-4 bg-light"
+                        placeholder="masukan nomor telepon">
+                </div>
+                <div class="mb-5">
+                    <label for="sekolah" class="form-label fw-bold"> Asal Sekolah</label>
+                    <input type="text" name="sekolah" id="sekolah" class="form-control rounded-4 bg-light"
+                        placeholder="masukan asal sekolah">
+                </div>
+                <div class="mb-3">
+                    <label for="orang-tua" class="form-label fw-bold"> Nama Orang Tua / Wali</label>
+                    <input type="text" name="orang-tua" id="orang-tua" class="form-control rounded-4 bg-light"
+                        placeholder="masukan nama orang tua">
+                </div>
+                <div class="mb-3">
+                    <label for="alamat" class="form-label fw-bold"> Alamat</label>
+                    <input type="text" name="alamat" id="alamat" class="form-control rounded-4 bg-light"
+                        placeholder="masukan alamat">
+                </div>
+                <div class="mb-3">
+                    <label for="telepon-orang-tua" class="form-label fw-bold"> No. Handphone Orang Tua / Wali</label>
+                    <input type="number" name="telepon-orang-tua" id="telepon-orang-tua"
+                        class="form-control rounded-4 bg-light" placeholder="masukan nomer telepon orang tua">
+                </div>
+                <div class="mb-5">
+                    <label for="pekerjaan" class="form-label fw-bold"> Pekerjaan Orang Tua / Wali</label>
+                    <input type="text" name="pekerjaan" id="pekerjaan" class="form-control rounded-4 bg-light"
+                        placeholder="masukan pekerjaan orang tua">
+                </div>
+                <div class="mb-3">
+                    <label for="program-belajar" class="form-label">Pilih Program</label>
+                    <select class="form-select" id="program-belajar" aria-label="program">
+                        <option value="Program Regular">Program Regular</option>
+                        <option value="Program Regular + UTBK">Program Regular + UTBK</option>
+                        <option value="Program Great">Program Great</option>
+                        <option value="Tangkas UTBK">Tangkas UTBK</option>
+                        <option value="Program Eksekutif">Program Eksekutif</option>
+                    </select>
+                </div>
+                <div class="row row-cols-2">
+                    <div class="mb-3">
+                        <label for="hari" class="form-label fw-bold"> Pilih Hari</label>
+                        <select id="hari" class="form-select rounded-4 bg-light">
+                            <option value="Senin dan Kamis" selected> Senin dan Kamis</option>
+                            <option value="Selasa dan Jumat"> Selasa dan Jumat</option>
+                            <option value="Rabu dan Sabtu"> Rabu dan Sabtu</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="jam" class="form-label fw-bold"> Pilih Jam</label>
+                        <select id="jam" class="form-select rounded-4 bg-light">
+                            <option value="15.00 - 17.10" selected> 15.00 - 17.10</option>
+                            <option value="17.20 - 19.30"> 17.20 - 19.30</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <label for="" class="form-label fw-bold"> Diskon</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox"
+                            value="Pembayaran Lunas bulan Maret s/d April Rp.500.000" id="pembayaran-maret-april">
+                        <label class="form-check-label" for="pembayaran-maret-april">
+                            Pembayaran Lunas bulan Maret s/d April <b>Rp.500.000</b> </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="Pembayaran Lunas bulan Mei s/d Juni 
+                    Rp400.000" id="pembayaran-mei-juni">
+                        <label class="form-check-label" for="pembayaran-mei-juni">Pembayaran Lunas bulan Mei s/d Juni
+                            <b>Rp400.000</b>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="">
+                        <label class="form-check-label" for="">Juara umum 1,2,3 di sekolah (menunjukkan bukti surat
+                            keterangan) <b>Rp.200.000</b>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="Peringkat 1-10 di kelas Rp.100.000"
+                            id="peringkat">
+                        <label class="form-check-label" for="peringkat">Peringkat 1-10 di kelas <b>Rp.100.000</b>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="Ketua OSIS Rp.200.000" id="ketua-osis">
+                        <label class="form-check-label" for="ketua-osis">Ketua OSIS <b>Rp.200.000</b>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox"
+                            value="Menjuarai lomba-lomba akademik dan sejenisnya (provinsi & kabupaten) seperti karya ilmiah paskibraka, debat, olimpiade akademik dan essay, (menunjukkan piagam) Rp.200.000"
+                            id="juara-akademik">
+                        <label class="form-check-label" for="juara-akademik">Menjuarai lomba-lomba akademik dan
+                            sejenisnya
+                            (provinsi & kabupaten) seperti karya ilmiah paskibraka, debat, olimpiade akademik dan essay,
+                            (menunjukkan piagam) <b> Rp.200.000</b>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox"
+                            value="Menjuarai lomba seperti point diatas tingkat nasional (menunjukan piagam) Rp.400.000"
+                            id="juara-nasional">
+                        <label class="form-check-label" for="juara-nasional">Menjuarai lomba seperti point diatas
+                            tingkat
+                            nasional (menunjukan piagam) <b>Rp.400.000</b>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox"
+                            value="Pendaftaran kolektif minimal 4 orang Rp.100.000" id="pendaftaran-kolektif">
+                        <label class="form-check-label" for="pendaftaran-kolektif">Pendaftaran kolektif minimal 4 orang
+                            <b>Rp.100.000</b>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="Alumni Triton Rp.200.000"
+                            id="alumni-triton">
+                        <label class="form-check-label" for="alumni-triton">Alumni Triton <b>Rp.200.000</b>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="Anak Guru dan Dosen Rp.100.000"
+                            id="anak-guru">
+                        <label class="form-check-label" for="anak-guru">Anak Guru dan Dosen <b>Rp.100.000</b>
+                        </label>
+                    </div>
+                </div>
+                <div class="mb-5 d-flex justify-content-center">
+                    <input type="submit" class="btn btn-danger w-25 py-2 px-4 text-center" value="DAFTAR"
+                        onclick="sendWhatsapp()">
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-isi text-center">
+                <img src="assets/gambar/logo.png" class="animate-triton" width="150px" alt="">
+                <h4 class="mt-1 mb-4 animate-triton">Bimbel Terbaik di Bali</h4>
+                <h5 class="mb-3 animate-triton"><b>Hubungi Kami</b></h5>
+
+                <p><a href="tel:036125516" target="_blank"
+                        class="mb-3 animate-triton text-decoration-none text-white"><i class="fa-solid fa-phone">
+                        </i>
+                        (0361)
+                        255166</a></p>
+                <p> <a href="mailto:triton.denpasar@gmail.com" target="_blank"
+                        class="mb-3 animate-triton text-decoration-none text-white"><i class="fa-solid fa-envelope"></i>
+                        triton.denpasar@gmail.com</a>
+                </p>
+                <p><a href="https://wa.me/6282146434314" target="_blank"
+                        class="mb-3 animate-triton text-decoration-none text-white"><i
+                            class="fa-brands fa-whatsapp"></i>
+                        082146434314</a></p>
+            </div>
+            <div class="d-flex justify-content-end text-white gap-3 mt-5">
+                <a href="" class="text-white animate-triton"><i class="fa-brands fa-instagram"></i></a>
+                <a href="" class="text-white animate-triton"><i class="fa-brands fa-facebook"></i></a>
+                <a href="" class="text-white animate-triton"><i class="fa-brands fa-youtube"></i></a>
+                <a href="" class="text-white animate-triton"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p class="fw-normal animate-triton"> © Copyright Triton Denpasar <span id="tahun"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="link-kanan d-block text-center ">
+        <div class="circle-link">
+            <a href="https://wa.me/6282146434314?text=Hii%20Triton%20Denpasar..." target="_blank"
+                class="link-whatsapp animate-titron" title="Klik untuk chat via wahtsapp"><i
+                    class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </div>
+
+    <div id="triton-loader" class="show fullscreen">
+        <div class="ping"></div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/fontawesome/js/fontawesome.js"> </script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                $('.animate-triton').each(function () {
+                    var elementPosition = $(this).offset().top;
+                    var screenPosition = $(window).scrollTop() + $(window).height();
+                    if (elementPosition < screenPosition) {
+                        $(this).addClass('animate__animated animate__fadeInUp');
+                        $(this).css('opacity', '1');
+                        $(this).css('transform', 'translateY(0)');
+                    }
+                });
+            });
+        });
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                $('.animate-triton-left').each(function () {
+                    var elementPosition = $(this).offset().top;
+                    var screenPosition = $(window).scrollTop() + $(window).height();
+                    if (elementPosition < screenPosition) {
+                        $(this).addClass('animate__animated animate__fadeInLeft');
+                        $(this).css('opacity', '1');
+                        $(this).css('transform', 'translateY(0)');
+                    };
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>

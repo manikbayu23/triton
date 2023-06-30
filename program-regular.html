@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Triton Denpasar | Program Great </title>
+    <title>Triton Denpasar | Program Regular </title>
     <link rel="icon" type="image/png" sizes="16x16" href="assets/gambar/logo.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
@@ -31,15 +31,14 @@
             <div class="d-flex flex-column flex-lg-row justify-content-lg-center w-100 ">
                 <div class="col-lg-6 col-sm-12 d-flex align-items-center justify-content-center">
                     <div class=" animate-home-left d-flex text-end justify-content-center">
-                        <img src="assets/gambar/program great rinci.png" class="img-fluid" width="60%" alt="great">
+                        <img src="assets/gambar/regular rinci.png" width="60%" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6  col-sm-12 bg-white p-4 rounded-2">
-                    <h1 class="fw-bold mb-4 animate-home">Program Great</h1>
-                    <p class="mb-4 fw-medium animate-home">Kamu siswa kelas 12? Ingin mempersiapkan diri menghadapi UTBK
-                        lebih dini? Tapi kalian gak pengen kelewatan materi pelajaran di sekolah? Ayo bergabung dengan
-                        Triton. Triton akan membantumu mempersiapkan diri menghadapi UTBK lebih dini dan membantumu
-                        dalam memahami pelajaran di sekolah selama 1 semester.</p>
+                    <h1 class="fw-bold mb-4 animate-home">Program Regular</h1>
+                    <p class="mb-4 fw-medium animate-home">Kamu merasa butuh bantuan tambahan untuk belajar? Pelajaran
+                        sekolah terasa sulit? Yuk gabung di Triton. Triton akan bantumu untuk menghadapi permasalahan
+                        akademikmu dengan seni pemecahan masalah ala Triton yang menekankan pada penalaran.</p>
                     <h5 class="fw-bold mb-4 animate-home">
                         Program terbuka untuk kelas :
                     </h5>
@@ -55,6 +54,57 @@
                                 3 SMA IPS
                             </div>
                         </div>
+                        <div class="col mb-3">
+                            <div class="bt-programs">
+                                2 SMA IPA
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="bt-programs">
+                                2 SMA IPS
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="bt-programs">
+                                1 SMA IPA
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="bt-programs">
+                                1 SMA IPS
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="bt-programs">
+                                3 SMP
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="bt-programs">
+                                2 SMP
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="bt-programs">
+                                1 SMP
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="bt-programs">
+                                6 SD
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="bt-programs">
+                                5 SD
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="bt-programs">
+                                4 SD
+                            </div>
+                        </div>
+
                         <div class="col-12 d-flex justify-content-center animate-home gap-2">
                             <a href="pemesanan-program.html" class="mt-4 btn-sekarang w-50 shadow">DAFTAR SEKARANG</a>
                             <a href="detail-program/detail-program-regular.html"
@@ -72,20 +122,45 @@
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <iframe
-                        src="https://docs.google.com/forms/d/e/1FAIpQLSfup6QRef8F3WB2BMErDGFju4yHRQlBTn1w9nRwZyt2WsUe3g/viewform?embedded=true"
-                        width="100%" height="520" frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe>
-                </div>
-                <div class="modal-footer">
-                    <div class="m-3"></div>
-                </div>
+                <form action="">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="nama" class="form-label">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="nama" placeholder="masukan nama anda" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telepon" class="form-label">No Telepon</label>
+                            <input type="text" class="form-control" id="telepon" placeholder="masukan no telepon anda"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="program" class="form-label">Pilih Program</label>
+                            <select class="form-select" id="nama-program" aria-label="program">
+                                <option value="Program Regular">Program Regular</option>
+                                <option value="Program Regular + UTBK">Program Regular + UTBK</option>
+                                <option value="Program Great">Program Great</option>
+                                <option value="Tangkas UTBK">Tangkas UTBK</option>
+                                <option value="Program Eksekutif">Program Eksekutif</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan Tambahan</label>
+                            <textarea name="pesan" class="form-control" id="pesan" cols="10"
+                                placeholder="masukan pesan tambahan (opsional)"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="m-3"></div>
+                        <input type="submit" onclick="sendWhatsapp()" value="Pesan Sekarang" class="btn btn-primary">
+                    </div>
+                </form>
             </div>
         </div>
     </div>
+
 
     <footer id="footer">
         <div class="container">
