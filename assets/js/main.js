@@ -1,13 +1,19 @@
 //navbar
 window.addEventListener('scroll', () => {
-    if (window.scrollY > 0) {
+    if (window.scrollY > 400) {
         document.getElementById('header').classList.add('nav-scroll');
+        document.getElementById('navbar-brand').classList.add('show');
     } else {
-       
         document.getElementById('header').classList.remove('nav-scroll');
+        document.getElementById('navbar-brand').classList.remove('show');
 
     }
 });
+
+
+
+
+
 
 var h2 = document.querySelector('h2');
 window.addEventListener('load', function () {
@@ -85,7 +91,7 @@ function sendWhatsapp () {
 
 
     if (validateForm()) {
-        let message = "Hi, saya ingin memesan" + "%0AProgram: " + programBelajar +
+        let message = "Hi, cs Triton saya ingin memesan" + "%0AProgram: " + programBelajar +
           "%0ANama: " + nama + "%0ATelepon: " + telepon + "%0ATempat Lahir: " + tempatLahir
           + "%0ATanggal Lahir: " + tanggalLahir + "%0Asal Sekolah: " + sekolah + "%0ANama Orang Tua / Wali: " + orangTua 
           "%0AAlamat: " + alamat + "%0ANo. Telepon Orang Tua: " + teleponTua + "%0APekerjaan: " + pekerjaan + "%0APilihan Hari: " + hari + "%0APilihan Jam: " + jam;
